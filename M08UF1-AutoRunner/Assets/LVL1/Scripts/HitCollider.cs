@@ -1,37 +1,37 @@
+using NUnit.Framework;
 using UnityEngine;
-using System.Collections.Generic;
 using UnityEngine.Events;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 
-public class HitHurtSystem : MonoBehaviour
+public class HitCollider : MonoBehaviour
 {
-    List<string> hittableTags;   
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        hittableTags = new List<string>();
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    UnityEvent<HitCollider, HurtCollider> onHitDelivered;
+    List<string> hittableTags;
+
     private void OnTriggerEnter(Collider other)
     {
-        
+        CheckCollider(other);
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        CheckCollider(collision.collider);
+    }
+
+    private void CheckCollider(Collider other)
+    {
+        if (hittableTags.Contains(other.tag))
         {
-            Debug.Log("¡Se ha detectado un enemigo!");
+            HurtCollider hurtCollider = other.GetComponent<HurtCollider>();
+            if (hurtCollider)
+            {
+                hurtCollider.NotifyHit(this);
+                onHitDelivered.Invoke(this, hurtCollider);
+            }
+
         }
     }
-    void HitCollider() 
-    {
-        //UnityEvent onHitDelivered(HitCollider,HurtCollider);
-    }
-    void HurtCollider() 
-    {
-    
-    }
+
 }
+
+

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|d:\\jmolina\\m08\\m08-autorunner\\m08uf1-autorunner\\assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\lvl1\\scripts\\hurtcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\lvl1\\scripts\\hurtcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|d:\\jmolina\\m08\\m08-autorunner\\m08uf1-autorunner\\assets\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\Player\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\Player\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:17:25.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HurtCollider.cs",
+              "DocumentMoniker": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "RelativeToolTip": "Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T08:06:22.09Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\LVL1\\Scripts\\HitCollider.cs",
               "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HitCollider.cs",
               "RelativeToolTip": "Assets\\LVL1\\Scripts\\HitCollider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T08:17:45.053Z",
               "EditorCaption": ""
