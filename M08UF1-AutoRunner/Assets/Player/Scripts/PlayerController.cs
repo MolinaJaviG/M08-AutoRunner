@@ -9,13 +9,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float verticalVelocityOnGrounded = -1f;
     [SerializeField] InputActionReference Punch;
     [SerializeField] HitCollider hitColliderPunch;
-
+    int vidas = 3;
     float forwardVelocity = 0f;
     float verticalVelocity = 0f;
     float gravity = -9.8f;
 
     CharacterController characterController;
-    
+    HurtCollider hurtcollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,22 +24,29 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        hurtcollider = GetComponent<HurtCollider>();
     }
     private void OnEnable()
     {
         Punch.action.Enable();
         Punch.action.performed += OnPunch;
+        hurtcollider.onHitReceived.AddListener(OnHurt);
     }
     private void OnDisable()
     {
         Punch.action.Disable();
         Punch.action.performed -= OnPunch;
-
+        hurtcollider.onHitReceived.RemoveListener(OnHurt);
     }
     private void OnPunch(InputAction.CallbackContext context) 
     {
         hitColliderPunch.gameObject.SetActive(true);
         DOVirtual.DelayedCall(0.5f, () => hitColliderPunch.gameObject.SetActive(false));
+    }
+    void OnHurt(HitCollider hitCol, HurtCollider hurtCol)
+    {
+        vidas = vidas - 1;
+
     }
     // Update is called once per frame
     void Update()

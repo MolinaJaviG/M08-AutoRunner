@@ -3,12 +3,25 @@ using UnityEngine;
 public class ScenarioGenerator : MonoBehaviour
 {
     static public ScenarioGenerator instance;
-    [SerializeField] int numPiecesToGenerateOnStart = 4;
+    [SerializeField] int numPiecesToGenerateOnstart = 4;
     [SerializeField] GameObject[] piecesPrefabs;
+
+    [Header("Debug")]
     [SerializeField] bool debugEndOfPieceReached;
 
     Transform nextPiecePosition;
+
     int numPiecesFinished = 0;
+
+    private void OnValidate()
+    {
+        if (debugEndOfPieceReached)
+        {
+            debugEndOfPieceReached = false;
+            EndOfPieceReached();
+        }
+    }
+
     private void Awake()
     {
         instance = this;
@@ -17,7 +30,7 @@ public class ScenarioGenerator : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < numPiecesToGenerateOnStart;i++) 
+        for (int i = 0; i < numPiecesToGenerateOnstart; i++)
         {
             AddNewPiece();
         }
@@ -32,12 +45,15 @@ public class ScenarioGenerator : MonoBehaviour
             AddNewPiece();
         }
     }
+
     void AddNewPiece()
-    { 
-        GameObject pieceToInstantiate = piecesPrefabs[Random.Range(0,piecesPrefabs.Length)];
+    {
+        GameObject pieceToInstantiate = piecesPrefabs[Random.Range(0, piecesPrefabs.Length)];
         GameObject newPiece = Instantiate(pieceToInstantiate, nextPiecePosition.position, nextPiecePosition.rotation, transform);
-        //nextPiecePosition = newPiece.GetComponentInChildren<NextPiece>().transform;
+
+        nextPiecePosition = newPiece.GetComponentInChildren<NextPiecePosition>().transform;
     }
+
     void DestroyOldestPiece()
     {
         GameObject oldestPiece = transform.GetChild(0).gameObject;

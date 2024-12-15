@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\",
+  "WorkspaceRootPath": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|d:\\jmolina\\m08\\m08-autorunner\\m08uf1-autorunner\\assets\\scenariogenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scenariogenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\lvl1\\scripts\\hurtcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\lvl1\\scripts\\hurtcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\lvl1\\scripts\\hurtcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\lvl1\\scripts\\hitcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|c:\\users\\gatox\\desktop\\jmolina12122024\\jmolina\\m08\\m08-autorunner\\m08uf1-autorunner\\assets\\scenariogenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B6172C-EEBB-DF2C-2D87-1277DC7247C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scenariogenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ScenarioGenerator.cs",
-              "DocumentMoniker": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\ScenarioGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\ScenarioGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\ScenarioGenerator.cs",
-              "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\ScenarioGenerator.cs",
+              "ToolTip": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\ScenarioGenerator.cs",
               "RelativeToolTip": "Assets\\ScenarioGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T08:11:42.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\Player\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\Player\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\Player\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\Player\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Player\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCsAAAAdAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wCYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T08:17:25.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HurtCollider.cs",
-              "DocumentMoniker": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HurtCollider.cs",
-              "RelativeDocumentMoniker": "Assets\\LVL1\\Scripts\\HurtCollider.cs",
-              "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HurtCollider.cs",
-              "RelativeToolTip": "Assets\\LVL1\\Scripts\\HurtCollider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T08:06:22.09Z"
+              "WhenOpened": "2024-11-28T08:17:25.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HitCollider.cs",
-              "DocumentMoniker": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HitCollider.cs",
-              "RelativeDocumentMoniker": "Assets\\LVL1\\Scripts\\HitCollider.cs",
-              "ToolTip": "D:\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HitCollider.cs",
-              "RelativeToolTip": "Assets\\LVL1\\Scripts\\HitCollider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Title": "HurtCollider.cs",
+              "DocumentMoniker": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "ToolTip": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "RelativeToolTip": "Assets\\LVL1\\Scripts\\HurtCollider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T08:17:45.053Z"
+              "WhenOpened": "2024-11-28T08:06:22.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HitCollider.cs",
+              "DocumentMoniker": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HitCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\LVL1\\Scripts\\HitCollider.cs",
+              "ToolTip": "C:\\Users\\gatox\\Desktop\\Jmolina12122024\\Jmolina\\M08\\M08-AutoRunner\\M08UF1-AutoRunner\\Assets\\LVL1\\Scripts\\HitCollider.cs",
+              "RelativeToolTip": "Assets\\LVL1\\Scripts\\HitCollider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:17:45.053Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.Events;
-
+using UnityEngine.InputSystem;
 public class HurtCollider : MonoBehaviour
 {
 
-    UnityEvent<HitCollider, HurtCollider> onHitRecived;
+    public UnityEvent <HitCollider, HurtCollider> onHitReceived;
 
 
     public void NotifyHit(HitCollider hitCollider)
     {
-        onHitRecived.Invoke(hitCollider, this);
+        onHitReceived.Invoke(hitCollider, this);
     }
 }
